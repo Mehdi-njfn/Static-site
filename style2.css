@@ -1,0 +1,188 @@
+body::before{
+    display: block;
+    content: "";
+    height: 3.9em;
+}
+footer{
+    width: 100%;
+    height: 5em;
+    color: white;
+}
+.centerImg{
+    width: 100%;
+    background-color: rgb(186, 186, 186);
+    justify-items: center;
+}
+.parag{
+    text-align: center;
+}
+
+
+#brandRavaneh{
+    max-width: 75%;
+}
+
+.nav-item{
+    padding-left: 1em !important;
+    
+}
+#knowCompany{
+    background-image: url(./img/truck.png);
+    background-repeat: none;
+    max-width:90em ;
+    height: 38em;
+    margin-left: auto;
+    margin-right: auto;
+}
+@font-face {
+    font-family: "CustomBold";
+    src: url("./font/IRANSansWeb_FaNum_Bold.woff") format("woff");
+}
+.titleDes{
+    font-family:CustomBold ;
+    font-size: xx-large;
+}
+.preDescription{
+    font-family:CustomBold ;
+    font-size: x-large;
+
+}
+.display-6{
+    font-family: CustomBold !important;
+    color: white !important;
+    margin-right: 0% !important;
+    margin-top: 3.5em !important;
+    
+}
+#description1{
+    background-color: rgba(18, 220, 65, 0.179) ;
+    color: white;
+    line-height: 2em;
+    text-align: justify;
+}
+#description2{
+    background-color: rgb(3, 214, 77);
+
+}
+#description3{
+    line-height: 2em;
+}
+.col img{
+width: 5em !important;
+height: auto !important;
+
+ }
+ p{
+    text-align: justify;
+ }
+ .row{
+    /* justify-items: center; */
+    align-items: center !important;
+    width: 100%;
+ }
+
+ .list-group-flush{
+    align-items: end !important;
+    display: contents;
+}
+
+
+
+@media screen and (max-width:769px) {
+    #knowCompany{
+        background-image: url(./img/truck2.png);
+        background-repeat: none;
+    }
+
+#description2{
+    width: 100%;
+        height:auto;
+        padding: 1em;
+         background-color: rgb(3, 214, 77);
+    }
+    
+    .list-group-flush{
+        width: 100%;
+        align-items: inherit;
+        padding-top: 2em;
+        padding-right: 10em;
+
+    }
+    
+    .display-6{
+        margin-top: 0%;
+        
+    }
+    #knowCompany{
+        max-width:100% ;
+        /* padding-right: 4em; */
+         padding-top: 1em;
+    }
+    #description1{
+        background-color: rgba(18, 220, 65, 0.179) ;
+        color: white;
+        padding: 0.3em;
+        padding-top: 1em;
+        padding-bottom: 0em;
+        
+        
+    }
+    #contractPic{ 
+        /* width:-webkit-fill-available; */
+         background-color: rgb(186, 186, 186);
+        max-width: 50%;
+        margin: auto;
+        padding: auto;
+    } 
+}
+
+@media (min-width:100px) and (max-width:426px)  {
+    #knowCompany{
+        background-image: url(./img/bgRavaneh.png);
+        background-repeat: none;
+        background-size: 100%;
+        padding-right: 0%;
+        padding-top: 0%;  
+        height: auto;      
+       
+    }
+    .display-6{
+        margin-top: 2em;
+        margin-bottom: 1.1em;
+        color: white;
+        width: auto;
+        height: auto;
+    }
+    #description1{
+        background-color: rgba(18, 220, 65, 0.179);
+        color: white;
+        padding: 0.3em;
+        padding-top: 1em;
+        padding-bottom: 0em;
+
+        
+    }
+    #description2{
+        width: 100%;
+        height:auto;
+         background-color: rgb(3, 214, 77);
+    }
+    .row{
+        width: 100% ;
+    }
+    .col{
+        padding-top: 1em;
+        padding-bottom: 1em ;
+        width: 20%;
+        height: auto;
+        }
+    #contractPic{
+        background-color: rgb(186, 186, 186);
+        max-width: 100%;
+        height: auto;
+    }
+}
+#contractPic{
+    width: 25%;
+    height: auto;
+}
