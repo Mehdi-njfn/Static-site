@@ -1,0 +1,10 @@
+body::before {
+    display: block;
+    content: "";
+    height: 4.7em;
+  }
+
+  p {
+    text-align: justify;
+    line-height: 2em;
+  }
